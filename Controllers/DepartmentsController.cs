@@ -19,4 +19,10 @@ public class DepartmentsController : ControllerBase
         return this._db.Departments.ToList();
     }
 
+    [HttpGet("{id}")]
+    public ActionResult<Department> GetDepartmentById(int id)
+    {
+        return this._db.Departments.Find(id);
+    }
+
 }
