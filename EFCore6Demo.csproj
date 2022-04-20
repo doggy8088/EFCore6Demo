@@ -9,7 +9,7 @@
   <ItemGroup>
     <Using Include="Microsoft.EntityFrameworkCore" />
     <Using Include="EFCore6Demo.Models" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SQLServer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SQLite" Version="6.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>

@@ -86,10 +86,6 @@ namespace EFCore6Demo.Models
 
                 entity.Property(e => e.Name).HasMaxLength(50);
 
-                entity.Property(e => e.RowVersion)
-                    .IsRowVersion()
-                    .IsConcurrencyToken();
-
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
 
                 entity.HasOne(d => d.Instructor)
