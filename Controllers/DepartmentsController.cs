@@ -1,3 +1,4 @@
+#nullable disable
 namespace EFCore6Demo.Controllers;
 
 [Route("api/[controller]")]
